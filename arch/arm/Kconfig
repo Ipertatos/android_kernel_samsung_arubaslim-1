@@ -2438,16 +2438,16 @@ config ARM_CPU_SUSPEND
 
 endmenu
 
-source "net/Kconfig"
+source "drivers/net/Kconfig"
 
 source "drivers/Kconfig"
 
-source "fs/Kconfig"
+source "drivers/fs/Kconfig"
 
 source "arch/arm/Kconfig.debug"
 
-source "security/Kconfig"
+source "drivers/security/Kconfig"
 
-source "crypto/Kconfig"
+source "drivers/crypto/Kconfig"
 
-source "lib/Kconfig"
+source "drivers/lib/Kconfig"
